@@ -2,7 +2,7 @@
 
 Reads CAN messages at 500 kbit and outputs them formatted as JSON to the USB Serial and a network port
 
-To see the USB serial port dump, read the port with cat, screen or PuTTY on Windows.
+To see the USB serial port dump, read the port with your favorite serial communication client. On Mac/Linux you can use cat or screen and PuTTY on Windows.
 ```
 cat /dev/tty.usbmodem1411 (update for your port number)
 ```
